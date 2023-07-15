@@ -4,7 +4,7 @@
 
 # Track Budget app
 
- A mobile application where the user can create new accounts, sign in, create different cartegories and check the transactions he/she has done in the past. This is a great Ruby on Rails app to help you track your money and take records of your expenditure!
+ A mobile application where the user can create new accounts, sign in, create different categories and check the transactions he/she has done in the past. This is a great Ruby on Rails app to help you track your money and take records of your expenditure!
 
  # Demo
  [link](https://safe-meadow-96564.herokuapp.com/)
@@ -17,7 +17,7 @@
 ![](./app/assets/images/trann.png)
 
 
-> This project is a blog that allows the user to create cartegory, add a transaction and view transaction made my each cartegory creator. The whole project is based on the ERDiagram below:
+> This project is a blog that allows the user to create a category, add a transaction, and view transactions made by each category creator. The whole project is based on the diagram below:
 ![blog_app_diagram](./app/assets/images/erd_diagram.png)
 
 ## Built With
@@ -69,21 +69,21 @@ Run the following command to install all dependencies.
 $ bundle install
 ```
 ```
-$ code .
+$ code.
 ```
 
 ### Database
 
 To create your local Database
 ```
-$ rails db:create
+$ rails db: create
 ```
 ```
 $ rails db:migrate
 ```
 To populate your Database
 ```
-$ rails db:seed
+$ rails db: seed
 ```
 
 ### Run tests
