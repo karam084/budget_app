@@ -79,7 +79,7 @@ To create your local Database
 $ rails db: create
 ```
 ```
-$ rails db:migrate
+$ rails db: migrate
 ```
 To populate your Database
 ```
